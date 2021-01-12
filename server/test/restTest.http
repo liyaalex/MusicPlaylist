@@ -1,0 +1,26 @@
+GET http://localhost:3002/allGenre
+content-Type: application/json
+
+###
+
+GET http://localhost:3002/getPlaylists/2
+content-Type: application/json
+
+###
+
+POST  http://localhost:3002/addToPlaylist
+content-Type: application/json
+
+{ 
+  "genre": [ "RockPOp" ],
+  "title":"ff",
+  "uri":"kk",
+  "master_id":"2323",
+  "thumb":"mmm",
+  "format":"mmm",
+  "country":"india"
+}
+
+###
+
+DELETE  http://localhost:3002/deleteFromPlaylist/34
